@@ -3951,10 +3951,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbjs@^0.3.1:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.3.2.tgz#033a540595084b5de3509a405d06f1a2a8e5b9fb"
-  integrity sha1-AzpUBZUIS13jUJpAXQbxoqjlufs=
+fbjs@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.6.1.tgz#9636b7705f5ba9684d44b72f78321254afc860f7"
+  integrity sha1-lja3cF9bqWhNRLcveDISVK/IYPc=
   dependencies:
     core-js "^1.0.0"
     loose-envify "^1.0.0"
@@ -5985,7 +5985,7 @@ loglevel@^1.4.1:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.6.tgz#0ee6300cc058db6b3551fa1c4bf73b83bb771312"
   integrity sha512-Sgr5lbboAUBo3eXCSPL4/KoVz3ROKquOjcctxmHIt+vol2DrqTQe3SwkKKuYhEiWB5kYa13YyopJ69deJ1irzQ==
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -7990,15 +7990,10 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@0.0.0-experimental-5faf377df:
-  version "0.0.0-experimental-5faf377df"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-5faf377df.tgz#86a639c8fe2a66862991f3c8564c1a28173238e5"
-  integrity sha512-llGL18JvFCmQx87WiaiyP6zAjj9Y9EMU52YicV3uNfQMY7G2szkGJ6jd25HP2SeryHIuvqAwOnnIREG268tHtA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "0.0.0-experimental-5faf377df"
+react-dom@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.10.tgz#da883daef7fa86838e9e2fcfcc084c590c350e21"
+  integrity sha512-kDs8SWFb8Sry4NAplhpJbZEeAnTPir/m+s9s+lkdqA2a89BzmWGnEgGG/CfmhULjv1ogc4oHrjMfAvFNruT3jQ==
 
 react-error-overlay@^6.0.3:
   version "6.0.3"
@@ -8070,13 +8065,13 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-0.14.0.tgz#72e7c69233b082e37e1bbd3674a943db72d8f407"
-  integrity sha1-cufGkjOwguN+G702dKlD23LY9Ac=
+react@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.14.10.tgz#c10d7750f1c5b34eee2a123915ac4c14c01c1081"
+  integrity sha512-yxMw5aorZG4qsLVBfjae4wGFvd5708DhcxaXLJ3IOTgr1TCs8k9+ZheGgLGr5OfwWMhSahNbGvvoEDzrxVWouA==
   dependencies:
     envify "^3.0.0"
-    fbjs "^0.3.1"
+    fbjs "^0.6.1"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -8510,14 +8505,6 @@ saxes@^3.1.9:
   integrity sha512-Ydydq3zC+WYDJK1+gRxRapLIED9PWeSuuS41wqyoRmzvhhh9nc+QQrVMKJYzJFULazeGhzSV0QleN2wD3boh2g==
   dependencies:
     xmlchars "^2.1.1"
-
-scheduler@0.0.0-experimental-5faf377df:
-  version "0.0.0-experimental-5faf377df"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-5faf377df.tgz#48d1a87898f44b6042193baa0b22da65979ae595"
-  integrity sha512-NcVYkok4zMoKEsgrXcXFmLrNp7qCKocZFpACnKQGylDzkzF/XUKjPGQ0f3Vj0QV3ijYhH4qSzLJwv1QdQe4DEw==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 schema-utils@^1.0.0:
   version "1.0.0"
